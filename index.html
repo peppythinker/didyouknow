@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Did You Know? – Guess First</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
+<body>
+  <main class="page">
+    <header class="hero">
+      <h1>Did You Know?</h1>
+      <p class="subtitle">Guess first. Then reveal the answer.</p>
+    </header>
+
+    <!-- CATEGORY -->
+    <section class="category-bar">
+      <button class="category-btn active" data-category="All">All</button>
+      <button class="category-btn" data-category="Animals">Animals</button>
+      <button class="category-btn" data-category="Space">Space</button>
+      <button class="category-btn" data-category="Nature">Nature</button>
+      <button class="category-btn" data-category="Ocean">Ocean</button>
+      <button class="category-btn" data-category="Human Body">Human Body</button>
+    </section>
+
+    <!-- CARD -->
+    <section class="game-area">
+      <div class="fact-card">
+        <p id="question" class="question">Loading...</p>
+
+        <ul id="choices" class="choices"></ul>
+
+        <button id="revealBtn" class="primary-btn">Tap to Reveal</button>
+
+        <div id="answerBox" class="answer hidden">
+          <p id="answerText"></p>
+          <p id="factText" class="fact-extra"></p>
+        </div>
+
+        <button id="nextBtn" class="secondary-btn hidden">Next</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
