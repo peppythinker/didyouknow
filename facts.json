@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Animals",
+    "question": "Which animal has 3 hearts?",
+    "choices": ["Shark", "Octopus", "Whale"],
+    "answer": "Octopus",
+    "fact": "Octopuses have three hearts and blue blood."
+  },
+  {
+    "category": "Space",
+    "question": "Which planet has rings?",
+    "choices": ["Mars", "Saturn", "Venus"],
+    "answer": "Saturn",
+    "fact": "Saturn’s rings are made of ice and rock."
+  },
+  {
+    "category": "Nature",
+    "question": "What do plants need to make food?",
+    "choices": ["Sunlight", "Sand", "Wind"],
+    "answer": "Sunlight",
+    "fact": "Plants use sunlight to make energy through photosynthesis."
+  },
+  {
+    "category": "Ocean",
+    "question": "Which is the largest ocean?",
+    "choices": ["Atlantic", "Indian", "Pacific"],
+    "answer": "Pacific",
+    "fact": "The Pacific Ocean is larger than all land combined."
+  },
+  {
+    "category": "Human Body",
+    "question": "Which part of your body pumps blood?",
+    "choices": ["Brain", "Heart", "Lungs"],
+    "answer": "Heart",
+    "fact": "Your heart beats about 100,000 times a day."
+  }
+]
